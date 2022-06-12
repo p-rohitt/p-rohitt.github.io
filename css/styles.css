@@ -1,0 +1,202 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.navbar-brand{
+    /* background-color: grey; */
+    font-size:2.5rem;
+    padding-left:20px;
+}
+
+.navbar{
+    padding: 0% 0 0% 0;
+}
+.nav-link{
+    margin-left:9px;
+    font-size:1.2rem;
+    color:black;
+   
+}
+.nav-link:hover{
+background-color: #D1D1D1;
+color:white;
+}
+
+
+
+
+
+
+
+.container-fluid{
+    padding:10% 5% 10% 5%;
+    line-height:3rem;
+    background-color: black;
+    color:#fff;
+    background-image: url(https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    background-position: center center;
+    background-size: cover;
+    
+    
+}
+.title-heading{
+    padding:0 0 6% 0;
+    font-size:5em;
+}
+
+.homepage-btn{
+    width:20%;
+    height:80px;
+    border-radius:0;
+    margin-top: 30px;
+    font-size:large;
+
+}
+
+
+.icons{
+    padding-top:6%;
+}
+
+
+@media (max-width:835px){
+    .homepage-btn{
+    width:fit-content;
+    }
+}
+
+
+/* SECOND SECTION */
+
+#description{
+    text-align:center;
+    padding: 7% 5% 10% 5%;
+}
+
+
+.feature-list{
+    padding:10% 0 0 0;
+}
+
+.feature-icons{
+    padding-bottom:15%
+}
+
+#description h2{
+    font-size:2.5rem;
+    padding-bottom:25px;
+}
+
+
+
+#design{
+    background-color:#D1D1D1;
+    padding:7% 5% 10% 5%;
+}
+.side-left-design{
+    padding-top:10%
+}
+.side-left-design h2{
+    font-size:2.5rem;
+    padding-bottom:20px;
+}
+.view-work-btn{
+    margin-top:2%;
+}
+.side-right-design img{
+    border-radius:20px;
+    margin-top:30px;
+}
+
+
+/* TEAM SECTION */
+
+
+#team{
+    text-align: center;
+    padding-top:10%;
+}
+
+.card-header img{
+    width:100%;
+
+}
+.contact-icons{
+    padding-right:10px;
+}
+
+.team-desc{
+    padding-bottom:10%;
+    font-size:1.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.team-desc h2{
+    font-weight:bold;
+    padding-bottom:20px;
+
+}
+
+
+/* STATS SECTION */
+
+#stats{
+    margin-top:10%;
+    text-align: center;
+    padding: 10% 0;
+    background-color:#000;
+    color:white;
+    font-size:2rem;
+}
+
+
+/* PRICING SECTION */
+
+
+.pricing-cards{
+    text-align:center;
+    padding:10% 0 15% 0;
+}
+
+.pricing-desc{
+    padding:15% 0 2% 0;
+    text-align:center;
+    font-size:3em;
+}
+.pricing-desc h2{
+    font-size: 5rem;
+    padding-bottom:20px;
+}
+
+
+
+/* CONTACT SECTION */
+
+
+#contact{
+    text-align: center;
+        background-color: #000;
+    padding-bottom:2%;
+    color:white;
+
+}
+
+#contact h2{
+    padding-top:3%;
+    padding-bottom:3%;
+    font-size:2rem;
+}
+
+.ending{
+    padding-top:2%;
+}
+.info{
+    text-align:left;
+    padding-left:100px;
+    padding-top:3%
+    
+}
+
+.information-icons{
+    padding-right:10px;
+}
